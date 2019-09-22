@@ -15,7 +15,7 @@ public class Team {
     public void showResults() {
         System.out.println("Результаты :");
         for (Participants participant : participants) {
-            System.out.println(participant);
+            System.out.println(participant.toString());
         }
     }
 }
